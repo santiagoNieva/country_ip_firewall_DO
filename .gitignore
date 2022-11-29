@@ -1,2 +1,6 @@
 *.code-workspace
 venv
+*.log
+*.pot
+*.pyc
+__pycache__
