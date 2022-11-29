@@ -1,8 +1,9 @@
 import requests
 import pickle
+import envs
 
-token = 'dop_v1_718154e5889255f84cbacea37f58e4842f183d75719b0860ee772d10d3deba78'
-id_firewall = 'a5ccdf94-a387-441a-bee8-e5f4afb34cbd'
+token = envs.token
+id_firewall = envs.id_firewall
 
 headers = {
     'Content-Type':'application/json',
