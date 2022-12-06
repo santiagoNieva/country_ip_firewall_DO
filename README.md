@@ -16,3 +16,7 @@ The old list is replaced by the new one.
 
 The list are saved into a pickle file.
 If there is no old list, it will create the first one.)
+
+## REFRESH_FIREWALL
+For this to work you should change the values on envs.py with your own token and ID
+The Firewall API admits only 1000 ip blocks per request, so the code will send more than one request if needed.

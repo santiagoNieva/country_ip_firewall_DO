@@ -84,6 +84,8 @@ if __name__ == '__main__':
         for format_code,format_name in vars.format_list.items():
             print(f" - {format_code:2} ----> {format_name}")
 
+        print("For Digital Ocean you should choose Format 1 or default")
+
     else:
         if args.verbose:
             print("Retrieving the IP Blocks. The parameters used are:")
